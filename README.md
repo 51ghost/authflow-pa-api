@@ -135,3 +135,13 @@ Tests use an in-memory SQLite database and cover all auth flows, PA gates, and e
 ## License
 
 MIT
+
+
+## Deployed URL
+
+**https://authflow-pa-api-production-edbd.up.railway.app**
+
+### Test it
+```bash
+curl -H 'x-api-key: rapidapi_live_key_authflow_pa' https://authflow-pa-api-production-edbd.up.railway.app/v1/health
+```
