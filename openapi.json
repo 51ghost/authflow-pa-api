@@ -15,12 +15,17 @@
         "name": "health",
         "color": "blue"
       }
-    ]
+    ],
+    "x-rapidapi-config": {
+      "has_api_key": true,
+      "api_key_header": "x-api-key",
+      "default_api_key": "rapidapi_live_key_authflow_pa"
+    }
   },
   "servers": [
     {
-      "url": "https://authflow-pa-api-production.up.railway.app",
-      "description": "Production"
+      "url": "https://authflow-pa-api-production-edbd.up.railway.app",
+      "description": "Production (Railway)"
     }
   ],
   "paths": {
